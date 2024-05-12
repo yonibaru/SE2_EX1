@@ -35,7 +35,7 @@ namespace ariel {
     int Graph::size() const{
         return Graph::adjMatrix[0].size();
     }
-
+    // Function to perform DFS
     std::vector<std::vector<int>> Graph::getGraph() const {
         return Graph::adjMatrix;
     }
@@ -85,7 +85,6 @@ namespace ariel {
     }
 
     void Graph::floydWarshallNegCycle(){
-        //Fix this
         int n = Graph::size();
         std::vector<std::vector<int>> dist = Graph::getGraph(); 
         for (int i = 0; i < n; ++i) {

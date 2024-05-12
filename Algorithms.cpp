@@ -42,6 +42,13 @@ namespace ariel{
         return result;
     }
     bool Algorithms::isContainsCycle(Graph& g) {
+        int n = g.size();
+        std::vector<bool> visited(n, 0);
+        for (int i = 0; i < n; ++i) {
+            g.dfs(0,visited);
+            if (!visited[i])
+                return true;
+        }
         return false;
     }
     std::string Algorithms::isBipartite(const Graph& g) {

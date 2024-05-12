@@ -4,7 +4,6 @@
 
 using namespace std;
 
-//Given Tests:
 TEST_CASE("Test isConnected"){
     ariel::Graph g;
     vector<vector<int>> graph = {

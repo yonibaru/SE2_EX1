@@ -10,7 +10,7 @@ Represented by a class.
 * adjMatrix: The adjacency matrix inserted by calling loadGraph().
 * prevMatrix: Parent pointer matrix, initialized as the zero matrix and can be filled by calling floydWarshall(). Mainly used by the 'Algorithms' to detect all shortest paths in every possible type fo graph.
 * distMatrix: Distance matrix, initialized as the zero matrix and can be filled by calling floydWarshallNegCycle(). Mainly used by the 'Algorithms' class to detect negative cycles in a graph.
-* vxs: # of verties in the given graph.
+* vxs: # of vertices in the given graph.
 * edges: # of edges in the given graph.
 ## Methods:
 * Graph(): default constructor.
@@ -32,7 +32,7 @@ none
 ## Methods: 
 * isConnected(): Performs DFS on the graph, and returns true if every vx was visited during DFS.
 * shortestPath(): Performs a standard implementation of the Floyd-Warshall algorithm on the graph, and generates all possible shortests path between every pair of vxs in the graph.
-* isContainsCycle(): 
+* isContainsCycle(): Performs DFS on the graph and returns true if it has atleast one backedge. We know that a backedge exists iff the graph is cyclic. (Teached in Algo' 1)
 * isBipartite(): Performs a standard 2-coloring algorithm on the graph, which paints an arbitrary vx in red, and then paints its neighbours blue and so on.. If the graph is 2-colorable it directly implies the graph is Bipartite as teached in Algorithms 1.
 * negativeCycle(): Performs a slightly-different implementation of the Floyd-Warshall Algorithm and then iterates upon the main diagonal in the distance matrix for any negative-values which would imply the graph has a negative-weight cycle. Returns true if it finds any.
 
