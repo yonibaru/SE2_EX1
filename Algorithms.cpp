@@ -5,6 +5,7 @@
 #include <list>
 
 namespace ariel{
+    //AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
     //We're going to create a static class which will hold all required algorithms.
     //Implementation of the Algorithms class (Definition is in header file):
     Algorithms::Algorithms(){}

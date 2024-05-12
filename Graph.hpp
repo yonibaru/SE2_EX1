@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 namespace ariel{
+    //AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
     class Graph {
     private:
         std::vector<std::vector<int>> adjMatrix;

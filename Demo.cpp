@@ -13,6 +13,7 @@ using ariel::Algorithms;
 using namespace std;
 
 int main(){
+    //AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
     ariel::Graph g;
     cout << "### GRAPH 1 ###" << endl;
 

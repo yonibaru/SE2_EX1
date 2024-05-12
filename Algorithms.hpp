@@ -2,6 +2,7 @@
 #define ALGORITHMS_HPP
 #include "Graph.hpp"
 namespace ariel {
+    //AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
     //The definition of the Algorithms class;
     class Algorithms{
     public:

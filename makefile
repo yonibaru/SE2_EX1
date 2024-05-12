@@ -2,6 +2,7 @@ CXX=clang++
 CXXFLAGS=-std=c++11
 SOURCES=Graph.cpp Algorithms.cpp TestCounter.cpp Test.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
+#AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
 
 run: demo
 	./demo

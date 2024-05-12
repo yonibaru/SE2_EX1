@@ -3,6 +3,7 @@
 #include "Graph.hpp"
 
 using namespace std;
+//AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
 
 TEST_CASE("Test isConnected"){
     ariel::Graph g;

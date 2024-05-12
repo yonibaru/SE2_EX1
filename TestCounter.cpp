@@ -1,5 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest.h"
+//AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
+
 using namespace doctest;
 
 const int MIN_TESTS = 20;
