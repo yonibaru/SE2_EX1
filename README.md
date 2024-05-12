@@ -1,7 +1,8 @@
-The following is a documentation for EX1 of SE2 written by 211465786.
+The following is a documentation for EX1 of SE2.
+AUTHOR: Yoni Baruch | 211465786 | theyonib@gmail.com
 Various helpful sources I have used includes: ChatGPT, Wikipedia, GeekForGeeks, StackOverflow.
 # Disclaimer
-I couldn't get the given makefile to work with my code, therefore I created my own. You should be able to run ./test normally.
+I couldn't get the given makefile to work with my code, therefore I had to create my own. You should be able to run ./test normally.
 Regarding tests, I added 15 tests to the given 5 tests.
 
 # Graph:
